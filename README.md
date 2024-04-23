@@ -18,7 +18,7 @@ The AI Quote Request Widget is a Node.js application built with NestJS on the se
 
 The application uses a PostgreSQL database, which is set up within a Docker container. Make sure Docker is installed and running, then execute the following command to start the PostgreSQL container:
 
-$ docker run --name notification -p 5432:5432 -e POSTGRES_PASSWORD=password123 -d postgres
+$ docker run --name notification -p 5432:5432 -e POSTGRES_PASSWORD=your_password_here -d postgres
 
 ### Server and Client
 
